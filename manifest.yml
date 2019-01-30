@@ -1,6 +1,6 @@
 ---
 declared-services:
-  wvda-visual-recognition:
+  minibar-visual-recognition:
     label: watson_vision_combined
     plan: lite
 applications:
@@ -11,4 +11,4 @@ applications:
   disk_quota: 512M
   random-route: false
   services:
-  - wvda-visual-recognition
+  - minibar-visual-recognition
