@@ -5,7 +5,7 @@ declared-services:
     plan: lite
 applications:
 - path: ./server
-  memory: 256M
+  memory: 64M
   instances: 1
   name: watson-minibar-analyzer
   disk_quota: 512M
